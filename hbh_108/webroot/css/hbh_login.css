@@ -1,0 +1,272 @@
+
+body{
+	font-family: Montserrat-thin;
+
+}
+
+.logo{
+	width: 35%;
+    margin-bottom: 5%;
+	margin-top: -10%;
+
+}
+
+label{
+	display: none !important;
+}
+
+.top-bar{
+	display: none !important;
+}
+.signup_main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.signup_content{
+	width: 39%;
+	padding-left: 6%;
+	padding-top: 10%;
+	padding-right: 5%;
+	min-width: 600px;
+	max-width: 800px;
+
+}
+
+.subtitle{
+	font-size: 18px;
+	letter-spacing: 0;
+	margin: 0;
+	font-weight: 600;
+
+}
+.title{
+	font-size: 38px;
+	letter-spacing: 0;
+	margin-top: -0.15%;
+	margin-bottom: -0.15%;
+	font-weight: 600;
+
+}
+
+.label{
+	color: #F15A5D;
+	font-weight: 600 !important;
+
+}
+
+.forgot{
+	/* Forgotten password?: */
+	font-family: Montserrat;
+	font-size: 14px;
+	color: #9B9B9B !important;
+	letter-spacing: 0;
+	text-decoration: none !important;
+	margin: auto 0;
+	float: right !important;
+	margin-top: 1%;
+	padding-right: 10%;
+	font-weight: 400;
+
+}
+
+a{
+	text-decoration: none !important;
+	color: #F15A5D;
+
+}
+
+.password, .email, .username, .text, .number{
+	/* Rectangle 11: */
+	background: #FFFFFF;
+	box-shadow: 0 2px 5px 0 #C2C2C2;
+	border-radius: 2px;
+	border-color: transparent;
+	width: 90%;
+	height: 40px;
+	font-size: 16px;
+}
+
+.name-section{
+	display: inline;
+	width: 100%;
+
+}
+
+.name-section-name, .name-section-surname{
+	display: inline-block;
+	padding-right: 1%;
+	width: 48%;
+
+}
+.name, .surname{
+	background: #FFFFFF;
+	box-shadow: 0 2px 5px 0 #C2C2C2;
+	border-radius: 2px;
+	border-color: transparent;
+	height: 40px;
+	font-size: 16px;
+	width: 94%;
+}
+
+input, number{
+	border: none;
+	overflow: auto;
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-left: 2%;
+
+	width: 100%;
+	height: 100%;
+
+}
+
+::placeholder{
+	color: #9B9B9B;
+	font-size: 16px;
+
+}
+
+.signup_quote{
+	width: 50%;
+	height:100vh;
+	background-image: url("../img/login.jpg");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.quote{
+	font-family: Montserrat-MediumItalic;
+	font-size: 22px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+	display: block;
+	position: relative;
+	top: 75vh;
+	margin-left:  10%;
+
+}
+
+
+.sign_in, .sign_up{
+	display: grid;
+	max-width: 60%;
+	margin-top: 8%;
+}
+.submit_btn, .next_btn01, .next_btn02, .next_btn03{
+	/* Rectangle 6: */
+	background: #F15A5D;
+	border-radius: 2px;
+	border-color: transparent;
+	width: 40%;
+	height: 45px;
+	margin-top: 2%;
+
+	/* LOGIN: */
+	font-family: Montserrat-thin;
+	font-size: 22px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+
+
+	cursor: pointer;
+	transition: .2s;
+}
+
+.submit_btn{
+	margin-top: 10% !important;
+
+}
+
+.submit_btn:hover{
+	transition: .2s;
+	background: #9B9B9B;
+
+}
+
+.swap_dont{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: inline-flex;
+	font-weight: 600 !important;
+
+
+}
+
+.swap_do{
+	position: absolute;
+	bottom: 0;
+	display: none ;
+	width: 100%;
+	font-weight: 600 !important;
+
+}
+
+
+.swap_dont_btn, .swap_do_btn{
+	padding-left: 1%;
+	color: #F15A5D !important;
+	cursor: pointer;
+	padding-left: 1%;
+	color: #F15A5D !important;
+	cursor: pointer;
+	width: 100%;
+	margin-left: 20%;
+
+}
+
+
+
+.sign_up02,.sign_up03,.sign_up04, .usertype {
+	display: none;
+}
+
+.next_btn02, .next_btn03{
+	display: none;
+}
+
+
+#tags-select{
+	display: none;
+	width: 100px;
+	margin-right: 10px;
+	min-width: 100%;
+	border-radius: 4px;
+	height: 20%;
+	margin-top: 5%;
+}
+
+
+
+.back_btn02{
+	color: #F15A5D !important;
+	cursor: pointer;
+	float: left;
+	padding-left: 0%;
+	text-align: left;
+}
+
+.back_btn03, .back_btn04{
+
+	color: #F15A5D !important;
+	cursor: pointer;
+	float: left;
+	padding-left: 0%;
+	text-align: left;
+	margin-top: -5%;
+	margin-bottom: 5%;
+
+}
+
+
+.i-want{
+	padding: 0%;
+	margin-top: -5%;
+}
